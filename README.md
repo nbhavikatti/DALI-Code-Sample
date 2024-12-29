@@ -1,4 +1,4 @@
 # DALI-Code-Sample
 This code sample consists of my solution to Day 6 of the 2024 Advent of Code Challenge (note: I have solutions to Days 1 - 7 full in Java). View here for the prompt: https://adventofcode.com/2024/day/6. To summarize: Part 1 - Given an input consisting of mainly dots ('.') and some hashtags ('#') and one carrot symbol either left, up, right, or down, the goal is to determine how many distinct positions (dots) the carrot will visit given the rule that everytime the carrot encounters a hashtag it will rotate 90 degrees to the right and continue. Part 2 - with the same given input, how many different locations that are currently dots could you place a single new hashtag to cause the carrot to get stuck in an infinite loop?
 
-My code involves a data folder containing input and then the src folder contains 3 .java files, where OrientedPoint is a helper class used in Part2.
+The files in this repository involve a data folder containing input and then the src folder contains 3 .java files, where OrientedPoint is a helper class used in Part2. In general in my code I leverage arraylists, arrays, hashsets, helper functions, and helper classes.
